@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+}
+.green-box{
+    background-color: #00e165;
+    font-size: 15px;
+    border: 1px solid #006cfa;
+}
+.container{
+    margin-top: 30px;
+}
