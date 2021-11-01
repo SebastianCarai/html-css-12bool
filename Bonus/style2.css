@@ -1,12 +1,15 @@
 .row div{
     display: none;
 }
+
+/* lg */
 @media screen and (min-width:992px) {
    .row div{
        display: flex;
    } 
 }
 
+/* md */
 @media screen and (min-width:768px) and (max-width:991px){
     .row div:nth-child(1),
     .row div:nth-child(2),
@@ -26,6 +29,7 @@
     } 
  }
 
+ /* sm */
  @media screen and (min-width:576px) and (max-width:767px){
     .row div:nth-child(1),
     .row div:nth-child(2){
@@ -36,6 +40,7 @@
     } 
  }
 
+ /* xs */
  @media screen and (max-width:576px){
     .row div:nth-child(1){
         display: flex;
